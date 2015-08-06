@@ -9,27 +9,25 @@
   </head>
   <body>
     <header>
-      <div class="left-container"><img src="http://placehold.it/200x100"></div>
+      <div class="left-container"><img src="http://placehold.it/200x100">
+      </div>
       <div class="mid-container">
-        <div><img src="http://placehold.it/200x40"></div>
-        <div>
-          <input type="text" placeholder="search" style="border: 1px solid gainsboro; width: 198px;">
-        </div>
+        <img src="http://placehold.it/200x40">
+        <input type="text" placeholder="search" style="border: 1px solid gainsboro; width: 198px;">
       </div>
-      <div class="right-container">
-        <ul>
-            <a href=”#”><li class="hor-line">My Account</li></a>
-            <a href=”#”><li class="hor-line">About Us</li></a>
-            <a href=”#”><li class="hor-line">Contact</li></a>
-            <a href=”#”><li>Blob</li></a>
-        </ul>
-        <img src="http://placehold.it/300x50">
-        <input type="text" placeholder="money" width="100" style="border: 1px solid gainsboro; border-bottom: 3px solid orange">
-        <button style="border:1px solid gainsboro; margin-right:1px;">abc</button><button style="border:1px solid gainsboro;">123</button>
-        <p style="text-align: left;">text here<span style="padding-left:172px">text here</span></p>
-      </div>
+      <div>
+      <ul class="right-container">
+        <a href=”#”><li class="hor-line">My Account</li></a>
+        <a href=”#”><li class="hor-line">About Us</li></a>
+        <a href=”#”><li class="hor-line">Contact</li></a>
+        <a href=”#”><li>Blog</li></a>
+      </ul>       
+      <img src="http://placehold.it/300x50">
+      <input type="text" placeholder="money" width="100" style="border: 1px solid gainsboro; border-bottom: 3px solid orange">
+      <button style="border:1px solid gainsboro; margin-right:1px;">abc</button>
+      <button style="border:1px solid gainsboro;">123</button>
     </header>
-    <nav>
+    <nav class="bottom-space">
       <ul>
         <li class="navi"><a href=”#”>list item 1</a></li>
         <li class="navi"><a href=”#”>list item 2</a></li>
@@ -41,84 +39,66 @@
         <li><a href=”#”>list item 8</a></li>
       </ul>
     </nav>
-    <div>
-      <div>
-        <img src="http://placehold.it/670x300">
-        <div class="right-top"><img src="http://placehold.it/50x50"></div>
-        <div class="right-middle"><img src="http://placehold.it/50x50"></div>
-        <div class="right-bottom"><img src="http://placehold.it/50x50"></div>
-      </div>
-    </div>
-    <div>long bar</div>
-    <div>main container top colored
-      <div>left 1
-        <button>left 1</button>
-      </div>
-      <div>left 2
-        <button>left 2</button>
-      </div>
-      <div>right 2
-        <button>right 2</button>
-      </div>
-      <div>right 1
-        <button>right 1</button>
-      </div>
-    </div>
-    <div>main container
-      <div>left</div>
-      <div>middle</div>
-      <div>right</div>
-    </div>
-    <div>main container
-      <div>left 1
-        <h2>title</h2>
-        <hr>
-        <ul>list
-          <li>list item</li>
-          <li>list item</li>
-          <li>list item</li>
-          <li>list item</li>
-          <li>list item</li>
-        </ul>
-      </div>
-      <div>left 2
-        <h2>title</h2>
-        <hr>
-        <ul>list
-          <li>list item</li>
-          <li>list item</li>
-          <li>list item</li>
-          <li>list item</li>
-          <li>list item</li>
-        </ul>
-      </div>
-      <div>right 1
-        <h2>title</h2>
-        <hr>
-        <p>some text goes here</p>
-        <input type="text"><input type="text">
-        <input type="text"><button>sign up</button>
-        <p>some text goes here</p>
-        <div>
-          <img src="http://placehold.it/15x15">
-          <p>Like</p>
-          <img src="http://placehold.it/15x15">
-          <p>Follow</p>
-          <img src="http://placehold.it/15x15">
-          <p>Rss</p>
-          <img src="http://placehold.it/15x15">
-          <p>Google&plus;</p>
-        </div>
-      </div>
-    </div>
-    <div>main container
-      <div>middle container
-        <img>
-      </div>
-    </div>
+    <img id="hero" src="http://placehold.it/670x400">
+    <img class="side" src="http://placehold.it/250x100">
+    <img class="side" src="http://placehold.it/250x100">
+    <img class="side" src="http://placehold.it/250x100">
+    <img class="bottom-space" src="http://placehold.it/960x50px">
+    <img class="bottom-space" src="http://placehold.it/960x300px">
+    <div class="container">
+      <img class="spacing" src="http://placehold.it/300x97px"><img class="spacing pos-rel2" src="http://placehold.it/300x97px"><img class="spacing pos-rel3" src="http://placehold.it/300x97px">
+    </div>     
   <footer>
-    <h2>Footer</h2>
-    <address>footer address</address>
+    <div class="container">
+      <div class="float-left">
+        <h2>title</h2>
+        <hr style="border: 1px solid orange;width:100%">
+        <ul>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+        </ul>
+      </div>  
+      <div class="float-left">
+        <h2>title</h2>
+        <hr style="border: 1px solid orange;width:100%">
+        <ul>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+          <a class="block" href="#">list item</a>
+        </ul>
+      </div> 
+      <div class="float-right">
+        <h2>title</h2>
+        <hr style="border: 1px solid orange;width:100%">
+        <p>Get the latest news, special offers and up-coming events from Cheesecake Power Cakes direct to your inbox</p>
+        <input style="width:200px;" type="text" placeholder="First Name">
+        <input style="width:180px;" type="text" placeholder="Last Name">
+        <input type="text" placeholder="Enter your email address">
+        <button type="button">Sign Up</button>
+        <br>
+        <img class="inline" src="http://placehold.it/25x25">
+        <p class="inline">Like</p>
+        <img class="inline" src="http://placehold.it/25x25">
+        <p class="inline">Follow</p>
+        <img class="inline" src="http://placehold.it/25x25">
+        <p class="inline">Rss</p>
+        <img class="inline" src="http://placehold.it/25x25">
+        <p class="inline">Google&plus;</p>  
+      </div>
+    </div>
+    <div id="center">
+      <img src="http://placehold.it/716x27">
+    </div>
+    <hr style="border: 1px solid green">
+    <p style="text-align: left; margin: 5px 0 5px 0; font-size: 10px;">Web Design Company adeogroup | ©2015 Kelvin Power Tools
+    </p>
+
+    <!--&#x271d;-->
   </footer>
     <script src="js/script.js"></script>
   </body>
